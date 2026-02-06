@@ -1,0 +1,17 @@
+#unwanted things for docker image
+**/.git
+**/.gitignore
+**/.vs
+**/.vscode
+**/.dockerignore
+**/bin
+**/obj
+**/out
+**/*.user
+**/*.sln.dotSettings
+.idea/
+.github/
+
+#logs to be generated in docker build 
+*.log
+docker-compose*
