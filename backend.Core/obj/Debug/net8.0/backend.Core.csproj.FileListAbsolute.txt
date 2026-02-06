@@ -1,0 +1,12 @@
+C:\Users\kanuj\Desktop\Assura\assura-backend\backend.Core\bin\Debug\net8.0\backend.Core.deps.json
+C:\Users\kanuj\Desktop\Assura\assura-backend\backend.Core\bin\Debug\net8.0\backend.Core.dll
+C:\Users\kanuj\Desktop\Assura\assura-backend\backend.Core\bin\Debug\net8.0\backend.Core.pdb
+C:\Users\kanuj\Desktop\Assura\assura-backend\backend.Core\obj\Debug\net8.0\backend.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kanuj\Desktop\Assura\assura-backend\backend.Core\obj\Debug\net8.0\backend.Core.AssemblyInfoInputs.cache
+C:\Users\kanuj\Desktop\Assura\assura-backend\backend.Core\obj\Debug\net8.0\backend.Core.AssemblyInfo.cs
+C:\Users\kanuj\Desktop\Assura\assura-backend\backend.Core\obj\Debug\net8.0\backend.Core.csproj.CoreCompileInputs.cache
+C:\Users\kanuj\Desktop\Assura\assura-backend\backend.Core\obj\Debug\net8.0\backend.Core.sourcelink.json
+C:\Users\kanuj\Desktop\Assura\assura-backend\backend.Core\obj\Debug\net8.0\backend.Core.dll
+C:\Users\kanuj\Desktop\Assura\assura-backend\backend.Core\obj\Debug\net8.0\refint\backend.Core.dll
+C:\Users\kanuj\Desktop\Assura\assura-backend\backend.Core\obj\Debug\net8.0\backend.Core.pdb
+C:\Users\kanuj\Desktop\Assura\assura-backend\backend.Core\obj\Debug\net8.0\ref\backend.Core.dll
