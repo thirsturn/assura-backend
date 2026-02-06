@@ -99,15 +99,18 @@ builder.Services.AddScoped<IAuthService, AuthService>();
 // Configure CORS
 builder.Services.AddCors(options =>
 {
-    options.AddPolicy("AllowAll", policy =>
+    options.AddPolicy("AllowAngularApp", policy =>
     {
-        policy.AllowAnyOrigin()
+        policy.WithOrigins("http://localhost:4200", "http://localhost")
               .AllowAnyMethod()
               .AllowAnyHeader();
     });
 });
 
 var app = builder.Build();
+
+// use middleware
+app.UseCors("AllowAngularApp");
 
 // Initialize database - create tables if they don't exist
 using (var scope = app.Services.CreateScope())
@@ -122,6 +125,7 @@ if (app.Environment.IsDevelopment())
     app.UseSwagger();
     app.UseSwaggerUI();
 }
+
 
 app.UseHttpsRedirection();
 app.UseCors("AllowAll");

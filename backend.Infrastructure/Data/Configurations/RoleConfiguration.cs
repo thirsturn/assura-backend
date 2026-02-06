@@ -20,7 +20,11 @@ public class RoleConfiguration : IEntityTypeConfiguration<Role>
         builder.HasData(
             new Role { roleID = "1", roleName = "Admin" },
             new Role { roleID = "2", roleName = "StoreKeeper" },
-            new Role { roleID = "3", roleName = "User" }
+            new Role { roleID = "3", roleName = "Procurement" },
+            new Role { roleID = "4", roleName = "Superintend" },
+            new Role { roleID = "5", roleName = "HR" },
+            new Role { roleID = "6", roleName = "Auditor" },
+            new Role { roleID = "7", roleName = "Accountant" }
         );
     }
 }

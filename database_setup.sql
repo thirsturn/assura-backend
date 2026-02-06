@@ -19,7 +19,20 @@ CREATE TABLE IF NOT EXISTS roles (
 INSERT IGNORE INTO roles (roleID, roleName) VALUES 
 ('1', 'Admin'),
 ('2', 'StoreKeeper'),
-('3', 'User');
+('3', 'Procurement'),
+('4', 'Superintend'),
+('5', 'HR'),
+('6', 'Auditor'),
+('7', 'Accountant');
+
+INSERT IGNORE INTO divisions (divisionID, divisionName) VALUES 
+('1', 'Stores'),
+('2', 'Procurement'),
+('3', 'Superintend'),
+('4', 'HR'),
+('5', 'Auditing'),
+('6', 'Accounts'),
+('7', 'Admin');
 
 -- Create users table
 CREATE TABLE IF NOT EXISTS users (
